@@ -3,13 +3,13 @@
 
 def main():
 
-    book = "books/frankenstein.txt"
+    book = "books/therawshawk.txt"
     text = get_book_path(book)
     num_words = get_num_words(text)
     num_letter = get_num_letters(text)
     sort_dict = sort_on(num_letter)
 
-    print("--- Begin report of books/frankenstein.txt ---")
+    print(f"--- Begin report of {book} ---")
     print(f"There are {num_words} words found in this book")
     print("")
 
